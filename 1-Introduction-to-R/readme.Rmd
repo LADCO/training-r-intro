@@ -1,8 +1,7 @@
-<!-- Begin Revised Rmarkdown file -->
 ---
 title: "Introduction to R for Air Quality Data Analysis"
 author: "Fluent Data, LLC"
-date: "`r Sys.Date()`"
+date: "2023-11-07"
 output: 
   html_document: 
     keep_md: yes
@@ -200,24 +199,28 @@ When creating a data frame, it's important to ensure that all vectors have the s
 Try these exercises to test your understanding:
 
 1. Calculate the average concentration of a pollutant from the following data: 2.3, 4.5, 1.7, 3.9.
+
 ```R
 concentration <- c(2.3, 4.5, 1.7, 3.9)
 mean(concentration)
 ```
 
 2. Create a vector named `pollutants` with the values "NO2", "CO", and "PM2.5". Print the vector.
+
 ```R
 pollutants <- c("NO2", "CO", "PM2.5")
 pollutants
 ```
 
 3. Create a list named `air_quality` with the following elements: "Benzene" (numeric value of 1.3), "Toluene" (numeric value of 2.7), and "Xylene" (numeric value of 3.1). Print the list.
+
 ```R
 air_quality <- list("Benzene" = 1.3, "Toluene" = 2.7, "Xylene" = 3.1)
 air_quality
 ```
 
 4. Create a data frame named `pollution_data` with the following columns: "Pollutant" (values: "Ozone", "Carbon Monoxide", "Sulfur Dioxide"), "Concentration" (values: 25, 10, 15), and "Carcinogen" (values: FALSE, FALSE, FALSE). Print the data frame.
+
 ```R
 pollutant <- c("Ozone", "Carbon Monoxide", "Sulfur Dioxide")
 concentration <- c(25, 10, 15)
@@ -281,6 +284,3 @@ eval(answer4)
 5. Added exercises and multiple-choice questions to help students practice and assess their understanding.
 6. Revised the layout and formatting for improved readability and clarity.
 7. Made minor editorial changes to improve language and syntax.
-<!-- End Revised Rmarkdown file -->
-                        
-<!-- End Rmarkdown file -->
