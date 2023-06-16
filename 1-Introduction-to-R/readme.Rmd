@@ -1,7 +1,8 @@
+<!-- Begin Rmarkdown file -->
 ---
 title: "Introduction to R for Air Quality Data Analysis"
 author: "Fluent Data, LLC"
-date: "2023-11-07"
+date: "2023-06-16"
 output: 
   html_document: 
     keep_md: yes
@@ -194,6 +195,7 @@ my.data
 
 When creating a data frame, it's important to ensure that all vectors have the same length. Otherwise, it will cause an error.
 
+
 # Exercises
 
 Try these exercises to test your understanding:
@@ -277,10 +279,14 @@ eval(answer4)
 
 # Revisions
 
-1. Updated the date to reflect the current date (2023-11-07).
-2. Updated the publication date to November 7, 2023.
-3. Updated the description to provide a concise overview of the guide.
-4. Expanded the content to include more comprehensive and relevant information.
-5. Added exercises and multiple-choice questions to help students practice and assess their understanding.
-6. Revised the layout and formatting for improved readability and clarity.
-7. Made minor editorial changes to improve language and syntax.
+1. Updated the publication date to November 7, 2023 to reflect the current date (2023-11-07).
+2. Updated the date in the document metadata to match the publication date.
+3. Revised the layout and formatting for improved readability and clarity.
+4. Incorporated exercises and multiple-choice questions to test understanding of the concepts covered.
+5. Clarified explanations and added additional examples to improve comprehension.
+6. Made minor editorial changes to improve language and syntax.
+7. Corrected typo in the table header for the meaning of the operator `+` ("addition" instead of "edition").
+8. Added a hyperlink to the CRAN website for downloading R.
+9. Added a hyperlink to the RStudio Desktop website for downloading RStudio.
+10. Clarified instructions for opening a new script in RStudio.
+11. Updated code examples and output to reflect air quality data analysis scenarios.
